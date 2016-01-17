@@ -1,0 +1,65 @@
+body {
+    font-family: 'Century Gothic',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #25292a;
+}
+p {
+    font-size: 16px;
+}
+
+
+#LogoNav {
+    width: 54px;
+    height: 20px;
+}
+
+
+
+.intro {
+    background: url(../img/foggy-read.jpg) no-repeat bottom center scroll;
+    background-color: #25292a;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+.quote {
+    background: rgba(255,255,255,.2);
+    text-align: left;
+    width: 70%;
+    padding: 40px;
+    border: 1px solid #FFF;
+    margin: 0 auto;
+}
+.quote p:first-child:first-letter { 
+    float: left; 
+    color: #bbb0aa; 
+    font-size: 75px; 
+    line-height: 60px; 
+    padding-top: 4px; 
+    padding-right: 8px; 
+    padding-left: 3px; 
+    font-family: Georgia; 
+}
+.quote_tag {
+    font-style: italic;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#explination {
+    padding-top: 40px;
+    width: 70%;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.download-section {
+    background: url(../img/desk.jpg) no-repeat center center scroll;
+    background-color: #25292a;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}

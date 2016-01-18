@@ -15,11 +15,17 @@ p {
     0% {
         opacity: 0;
     }
-    10% {
+    49% {
         opacity: 0;
     }
-    20% {
+    50% {
         opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    91% {
+        opacity: 0;
     }
     100% {
         opacity: 0;
@@ -28,7 +34,7 @@ p {
 #cursor {
     animation: blink 1.4s;
     animation-iteration-count: infinite;
-    animation-timing-function: ease-out;
+    animation-timing-function: linear;
 }
 
 

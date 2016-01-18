@@ -11,6 +11,25 @@ p {
     width: 54px;
     height: 20px;
 }
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+#cursor {
+    animation: blink 1.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
 
 
 
